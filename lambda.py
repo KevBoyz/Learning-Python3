@@ -17,13 +17,14 @@ O item é enviado para a função como parâmetro.
 
 O construtor list () retorna uma lista em Python
 
-reduce()é útil quando você precisa aplicar uma função a um iterável e reduzi-la a um único valor cumulativo
+reduce() é útil quando você precisa aplicar uma função a um iterável e reduzi-la a um único valor cumulativo
 '''
 
 s = lambda x, y: x * y
 ss = (lambda x: x + 1)(6)
 
 x = lambda a, b, c: a + b + c
+
 
 hm = lambda x: x % 2 and 'odd' or 'even'
 bt = lambda x: "Even" if x % 2 == 0 else "Odd"
