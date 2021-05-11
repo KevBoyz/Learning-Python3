@@ -28,6 +28,8 @@ for letter in re.findall('(ke)(vin)', 'kevin'):  # set subgroups
     print(letter, end='')
 new()
 
+# Bonus Example
+print(re.search(r'k(ev)+in', 'Kevevevin', re.IGNORECASE).group())
 
 
 # keys {}
@@ -36,7 +38,11 @@ for letter in re.findall('ke{1, 3}vin', 'keeevin'):  # {min, max}, {min,}, {, ma
     print(letter, end='')
 new()
 
-
+# Bonus Example
+print('test', end=' ')
+for letter in re.findall('k{2, 5}evin?', 'kkkkevin'):  # ? at end turn regex non greedy
+    print(letter, end='')
+new()
 
 
 # Point .

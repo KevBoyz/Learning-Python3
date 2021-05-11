@@ -36,3 +36,7 @@ print()
 for letter in re.findall('\S', 'Hello World'):  # All non backspace or non null characters
     print(f'{letter}', end='')
 print()
+
+# Creating new character classes
+
+print(re.findall('[aeiou]', 'Kevin Emmanuel', re.IGNORECASE))
