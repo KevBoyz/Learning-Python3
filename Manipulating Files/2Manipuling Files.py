@@ -18,3 +18,14 @@ import os, shutil, send2trash   # Shell utilities
 # Safe delete with send2trash
 
 # send2trash.send2trash('file.txt')  # Send to trash, literally
+
+'''  # Walk the directory
+os.chdir('..')
+for root, dirs, file in os.walk('.'):
+    print(f'{root}')
+    print(f'{dirs}')
+    print(f'{file}')
+    print('-------------------')
+'''
+
+# os.rename('file_name', 'new_name')  # Renaming files
