@@ -2,7 +2,6 @@ from dataclasses import dataclass, field
 from typing import Any
 
 
-
 @dataclass(init=True, repr=True, eq=True, frozen=False, order=False, unsafe_hash=False)  # Frozen make class immutable;
 class Person:
     # __slots__ = ['first_name', 'second_name', 'age', 'id']  slots class cannot have default values
