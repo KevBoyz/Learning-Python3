@@ -288,3 +288,15 @@ JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERRO
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1621730292492	geckodriver	INFO	Listening on 127.0.0.1:49621
+1621730296240	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile9Ysuer"
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621730338954	Marionette	INFO	Listening on port 49629
+1621730339951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621730695632	Marionette	INFO	Stopped listening on port 49629
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
