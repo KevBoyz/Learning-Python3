@@ -20,7 +20,9 @@ _format = '%(levelname)s: %(msg)s'
 
 log.basicConfig(filename='log.log', filemode='w', format=_format, level=log.INFO)
 
-browser = Firefox()
+browser = Firefox()  # If You change to Chrome, move Chrome driver to this directory
+
+
 url = 'https://curso-python-selenium.netlify.app/exercicio_02.html#'
 browser.get(url)
 
@@ -40,4 +42,4 @@ while True:
     if browser.find_elements_by_tag_name('p')[-1].text[-1] == number:
         break
 
-print('Process Concluded')
+input('Process Concluded')
