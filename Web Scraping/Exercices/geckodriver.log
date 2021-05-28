@@ -1,0 +1,426 @@
+1622145165687	geckodriver	INFO	Listening on 127.0.0.1:56630
+1622145169370	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileZMPaij"
+1622145186962	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622145257771	Marionette	INFO	Listening on port 50503
+[Parent 10544, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622145344820	Marionette	INFO	Stopped listening on port 50503
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileEOzKSX"
+1622145337897	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622145370527	geckodriver	INFO	Listening on 127.0.0.1:62848
+1622145373673	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileVm42jV"
+1622145376133	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622145389108	Marionette	INFO	Listening on port 51621
+1622145390104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622146339802	Marionette	INFO	Stopped listening on port 51621
+1622146347380	geckodriver	INFO	Listening on 127.0.0.1:51441
+1622146350445	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileWB3IFC"
+1622146355967	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1622146380612	Marionette	INFO	Listening on port 51449
+1622146381159	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6756, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622146443768	Marionette	INFO	Stopped listening on port 51441622146445208	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilevvkYI0"
+1622146447716	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622146468694	Marionette	INFO	Listening on port 54045
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622146468802	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622146490481	Marionette	INFO	Stopped listening on port 54045
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile6jVIVI"
+1622146489346	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622146504873	Marionette	INFO	Listening on port 54402
+1622146505131	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622146789039	Marionette	INFO	Stopped listening on port 54402
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rror fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1622146643540	Marionette	INFO	Listening on port 65227
+1622146643912	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3128, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 3128, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622146789118	Marionette	INFO	Stopped listening on port 65221622146791157	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilekXdluY"
+1622146797765	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 6604, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622146811905	Marionette	INFO	Listening on port 52282
+1622146812109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622146916676	Marionette	INFO	Stopped listening on port 52282
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileb6LyvN"
+1622146913137	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622146927301	Marionette	INFO	Listening on port 54913
+1622146927404	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5808, IPC I/O Parent] WARNING: file /builds/worker/c1622147037846	mozrunner::runner	INFO	Running command: "C:\\Pro1622147041894	Marionette	INFO	Stopped listening on port 54913
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+1622147039668	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147054426	Marionette	INFO	Listening on port 58069
+1622147054597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147135061	Marionette	INFO	Stopped listening on port 58069
+2147130027	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile36RzLo"
+1622147132192	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147145378	Marionette	INFO	Listening on port 61603
+1622147145741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147226527	Marionette	INFO	Stopped listening on port 61603
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile6Qch5s"
+1622147227208	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622147239955	Marionette	INFO	Listening on port 55392
+1622147242936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147299892	Marionette	INFO	Stopped listening on port 55392
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileBchoon"
+1622147298108	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147315066	Marionette	INFO	Listening on port 51784
+1622147315487	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147358623	Marionette	INFO	Stopped listening on port 51784
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622147371855	geckodriver	INFO	Listening on 127.0.0.1:62361
+1622147374980	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile0jhQaZ"
+1622147379681	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622147390601	Marionette	INFO	Listening on port 62369
+1622147391246	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9900, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9900, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622147564901	Marionette	INFO	Stopped listening on port 62369
+1622147568396	geckodriver	INFO	Listening on 127.0.0.1:58287
+1622147571396	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileOGXtNS"
+1622147578673	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147607584	Marionette	INFO	Listening on port 58295
+1622147607781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147842519	Marionette	INFO	Stopped listening on port 58295
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile00rFYt"
+1622147819907	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+[Parent 7820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622147833100	Marionette	INFO	Listening on port 65405
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147835491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622147954907	Marionette	INFO	Stopped listening on port 65405
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileTgG6Or"
+1622147932615	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622147945888	Marionette	INFO	Listening on port 60622
+1622147946087	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10552, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10552, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: services.settings: Error retrieving the getLastModified timestamp from blocklists/addons-bloomfilters RemoteSettingsClient Message: Error: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() The application is shutting down
+console.error: services.settings: 
+  Message: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonsByTypes :: line 2786"  data: no]
+  Stack:
+    getAddonsByTypes@resource://gre/modules/AddonManager.jsm:2786:24
+getAddonsByTypes@resource://gre/modules/AddonManager.jsm:4096:33
+_onUpdate@resource://gre/modules/Blocklist.jsm:1546:37
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+console.warn: services.settings: blocklists/plugins sync interrupted by shutdown
+console.console.error: (new Error("SessionFile is closed", "resource:///moduleconsole.error: (new Error("SessionFile i1622148354649	Marionette	INFO	Stopped listening on port 57632
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ionette	INFO	Listening on port 51000
+1622148260610	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9824, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1622148374160	Marionette	INFO	Stopped listening on port 51000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622148389964	geckodriver	INFO	Listening on 127.0.0.1:54477
+1622148393064	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileC68Syh"
+1622148401949	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1622148420374	Marionette	INFO	Listening on port 54485
+1622148420666	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1848, IPC I/O Parent] WARNING: file /builds/worker/c1622148452460	mozrunner::runner	INFO	Running command: "C:\\Pro1622148452625	Marionette	INFO	Stopped listening on port 54485
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+1622148453816	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622148464133	Marionette	INFO	Listening on port 54556
+1622148464227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622148527888	Marionette	INFO	Stopped listening on port 54556
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622148543329	geckodriver	INFO	Listening on 127.0.0.1:59502
+1622148546438	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilekkIXcD"
+1622148548614	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622148573116	Marionette	INFO	Listening on port 59510
+1622148573293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622148968685	Marionette	INFO	Stopped listening on port 59510
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilegr6HJl"
+1622148969472	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622148981251	Marionette	INFO	Listening on port 61260
+1622148981843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+1622149032279	Marionette	INFO	Stopped listening on port 61260
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622154422783	geckodriver	INFO	Listening on 127.0.0.1:57377
+1622154425836	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileRS1WNQ"
+1622154428002	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622154439566	Marionette	INFO	Listening on port 57385
+1622154439688	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622154475969	Marionette	INFO	Stopped listening on port 57385
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilezMvXB0"
+1622154472355	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622154486621	Marionette	INFO	Listening on port 57450
+1622154486807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622154518818	Marionette	INFO	Stopped listening on port 57450
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilegPiT4j"
+1622154507359	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[Parent 7256, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_XPC_GS_RETURNED_FAILURE: ServiceManager::GetService returned failure code:
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622154527071	geckodriver	INFO	Listening on 127.0.0.1:57543
+1622154530185	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile6BryvG"
+1622154531464	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Erro1622154544352	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile4Mzoax"
+162JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.taconsole.warn: SearchSettings: 1622154562088	Marionette	INFO	Stopped listening on port 57551
+
+###!!! [Child][Ruconsole.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622154565330	Marionette	INFO	Listening on port 57576
+1622154566927	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7572, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1622154623329	Marionette	INFO	Stopped listening on port 57576
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622154638138	geckodriver	INFO	Listening on 127.0.0.1:57672
+1622154641152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile52ZYHt"
+1622154642934	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622154655590	Marionette	INFO	Listening on port 57680
+1622154656076	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622154846487	Marionette	INFO	Stopped listening on port 57681622154846912	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileHG7WCc"
+1622154850875	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622154863127	Marionette	INFO	Listening on port 50241
+1622154864185	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3888, IPC I/O Parent] WARNING: file /builds/worker/c1622155117501	mozrunner::runner	INFO	Running command: "C:\\Pro1622155120558	Marionette	INFO	Stopped listening on port 50241
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+1622155119726	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622155133057	Marionette	INFO	Listening on port 59879
+1622155133553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622155464028	Marionette	INFO	Stopped listening on port 59879
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622155556951	geckodriver	INFO	Listening on 127.0.0.1:54886
+1622155560021	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilez6dHhF"
+1622155561537	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622155572175	Marionette	INFO	Listening on port 54894
+1622155572470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622155823187	Marionette	INFO	Stopped listening on port 54894
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622155864379	geckodriver	INFO	Listening on 127.0.0.1:54959
+1622155867586	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileQhAV5O"
+1622155869040	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622155881390	Marionette	INFO	Listening on port 54967
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622155882670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622156025285	Marionette	INFO	Stopped listening on port 54967
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622160433238	geckodriver	INFO	Listening on 127.0.0.1:54371
+1622160436305	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofiled0MMcX"
+1622160448742	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622160497565	Marionette	INFO	Listening on port 54379
+[Parent 10112, IPC I/O Parent] WARNING: file /builds/worker/1622160541105	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppD1622160542765	Marionette	INFO	Stopped lis1622160543729	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622160555062	Marionette	INFO	Listening on port 54924
+1622160556168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622160861267	Marionette	INFO	Stopped listening on port 54924
+1622160868068	geckodriver	INFO	Listening on 127.0.0.1:57474
+1622160871115	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilenu7rYw"
+1622160873221	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 2632, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622160886171	Marionette	INFO	Listening on port 57482
+1622160886669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622160917749	Marionette	INFO	Stopped listening on port 57482
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileg8JrQD"
+1622160916833	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622160927702	Marionette	INFO	Listening on port 57540
+1622160928139	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8356, IPC I/O Parent] WARNING: file /builds/worker/c1622162300406	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilerN5zxN"
+1622162304627	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622162314625	Marionette	INFO	Listening on port 53834
+1622162315059	Marionette	WARN	TLS certificate errors will be ignored for this session

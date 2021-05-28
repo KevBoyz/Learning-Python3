@@ -29,7 +29,7 @@ log.info(f'<a> [text={a.get_attribute("text")}] href={a.get_attribute("href")}')
 # Testing <a>
 a.click()  # Work?
 
-browser.get(url)
+browser.get(url)  # Returning to page
 
 
 # Searching element for text

@@ -1,4 +1,3 @@
 INFO: ul(li) == 2
 INFO: li[0].text == DuckDuckGo
 INFO: <a> [text=DuckDuckGo] href=https://ddg.gg/
-INFO: elem = Text2
