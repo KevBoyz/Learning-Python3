@@ -424,3 +424,4 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1622162314625	Marionette	INFO	Listening on port 53834
 1622162315059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622162577611	Marionette	INFO	Stopped listening on port 53834

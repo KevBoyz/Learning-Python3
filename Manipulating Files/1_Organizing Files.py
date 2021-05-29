@@ -21,7 +21,7 @@ n = 0
 
 
 def get_ext(file):
-    index = file.rfind('.')
+    index = file.rfind('.')  # Getting the type of file
     return file[index:].lower()
 
 
