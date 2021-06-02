@@ -20,3 +20,14 @@ b.find_elements_by_css_selector('*')  # Universal selector
 b.find_elements_by_css_selector('input[name], label')  # Find multiple elements
 
 # Combinators (selectors)
+
+'h2 + div'  # (Adjacent brothers) Find the first div after h2
+'h1 ~ div'  # (Adjacent geral) starting from h2 finds all divs on the same level
+
+'div > br'  # (Sons selector) Get all <br> inside <div>
+'form br'  # (Descendant Selector) Find *all* <br> inside form
+
+b.find_elements_by_css_selector('div.form-group + br')
+
+b.find_element_by_css_selector('div.form-group > input[name="nome"]').send_keys('Kevin')
+b.find_elements_by_css_selector('form input')[1].send_keys('12345')
