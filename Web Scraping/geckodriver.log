@@ -1525,3 +1525,469 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
 [Parent 4424, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 1623181736797	Marionette	INFO	Stopped listening on port 61499
+1623264724297	geckodriver	INFO	Listening on 127.0.0.1:60751
+1623264728637	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileF2jLKv"
+1623264744318	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[Parent 11912, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623264804795	Marionette	INFO	Listening on port 60759
+1623264916716	Marionette	INFO	Stopped listening on port 60759
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623264924089	geckodriver	INFO	Listening on 127.0.0.1:60516
+1623264927139	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileYQNffC"
+1623264931721	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623264942833	Marionette	INFO	Listening on port 60524
+1623264943491	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 41: Error: 
+[Parent 11552, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623267045687	Marionette	INFO	Stopped listening on port 60524
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623267030508	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 5348: TypeError: win is null
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1623267051868	geckodriver	INFO	Listening on 127.0.0.1:55823
+1623267054950	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilelF4Hzm"
+1623267057706	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623267071658	Marionette	INFO	Listening on port 55831
+1623267072322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623268300184	Marionette	INFO	Stopped listening on port 55831623268302768	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileEi0sPr"
+1623268310859	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623268330416	Marionette	INFO	Listening on port 54420
+1623268331266	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623268453801	Marionette	INFO	Stopped listening on port 54420
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623268519503	geckodriver	INFO	Listening on 127.0.0.1:54476
+1623268522594	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilewR8k74"
+1623268526464	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623268541599	Marionette	INFO	Listening on port 54484
+1623268542254	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623269379170	Marionette	INFO	Stopped listening on port 54484
+3268755995	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileCOJBfJ"
+1623268760061	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623268777176	Marionette	INFO	Listening on port 64855
+1623268777820	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623269379239	Marionette	INFO	Stopped listening on port 64855
+1623269723269	geckodriver	INFO	Listening on 127.0.0.1:51355
+1623269727634	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilewZYJKl"
+1623269733480	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623269748642	Marionette	INFO	Listening on port 51363
+1623269749490	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623271120866	Marionette	INFO	Stopped listening on port 51363
+-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileR5HEJo"
+1623270863183	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623270880507	Marionette	INFO	Listening on port 58595
+1623270881046	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623271115109	Marionette	INFO	Stopped listening on port 58595
+3271048586	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileCy6i56"
+1623271054494	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 12124, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623271077529	Marionette	INFO	Listening on port 49856
+1623271078546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623272502903	Marionette	INFO	Stopped listening on port 49856
+1623273345530	geckodriver	INFO	Listening on 127.0.0.1:61550
+1623273349409	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile2jSk4j"
+1623273368733	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623273435366	Marionette	INFO	Listening on port 61558
+[Parent 10468, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10468, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623273473591	Marionette	INFO	Stopped listening on port 61558
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623273482269	geckodriver	INFO	Listening on 127.0.0.1:53860
+1623273485990	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileu34k9u"
+1623273492830	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623273515106	Marionette	INFO	Listening on port 53868
+1623273516130	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1548, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623274572580	Marionette	INFO	Stopped listening on port 53868
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+1623273563050	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 8080, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623273587828	Marionette	INFO	Listening on port 50205
+1623273588435	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623274572579	Marionette	INFO	Stopped listening on port 50205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623274645735	geckodriver	INFO	Listening on 127.0.0.1:49931
+1623274649394	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileI3qob9"
+1623274655901	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623274667781	Marionette	INFO	Listening on port 49516
+1623274668132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623275174130	Marionette	INFO	Stopped listening on port 49516
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623275180043	geckodriver	INFO	Listening on 127.0.0.1:60070
+1623275183773	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilequFBcF"
+1623275188916	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623275207036	Marionette	INFO	Listening on port 60078
+1623275207581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1949: TypeError: currentPanel is undefined
+1623275392908	Marionette	INFO	Stopped listening on port 60078
+3275377095	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilejORoTF"
+1623275379426	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1623275401436	Marionette	INFO	Listening on port 63703
+1623275401663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 833: NotAllowedError: Shutting down and refusing additional I/O tasks
+1623275443966	Marionette	INFO	Stopped listening on port 63703
+ "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile9op911"
+1623275417381	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+[Parent 7828, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1623275436937	Marionette	INFO	Listening on port 50778
+1623275437163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623275499533	Marionette	INFO	Stopped listening on port 50778
+3275495204	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilek5nhzC"
+1623275497415	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623275509551	Marionette	INFO	Listening on port 63125
+1623275509869	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623275516706	Marionette	INFO	Stopped listening on port 63125
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623275522625	geckodriver	INFO	Listening on 127.0.0.1:57334
+1623275525665	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofile1pobkI"
+1623275527940	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623275536452	Marionette	INFO	Listening on port 57342
+1623275537676	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623275611169	Marionette	INFO	Stopped listening on port 57342
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623275619914	geckodriver	INFO	Listening on 127.0.0.1:51381
+1623275623042	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofiletFBt26"
+1623275624461	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623275634618	Marionette	INFO	Listening on port 51389
+1623275635762	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623275641942	Marionette	INFO	Stopped listening on port 51389
+JavaScript error: resource://gre/modules/ContentPrefServiceParent.jsm, line 121: InvalidStateError: JSProcessActorParent.sendAsyncMessage: Actor 'ContentPrefs' cannot send message 'ContentPrefs:HandleCompletion' during shutdown.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623275646516	geckodriver	INFO	Listening on 127.0.0.1:63124
+1623275649566	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileJTsEUG"
+1623275650999	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623275662621	Marionette	INFO	Listening on port 63133
+1623275662927	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 11: Error: 
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 11: Error: 
+1623275909872	Marionette	INFO	Stopped listening on port 63133
+ust_mozprofile0kGqAw"
+1623275798142	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+[Parent 12148, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 12148, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+1623275910292	geckodriver	INFO	Listening on 127.0.0.1:64488
+1623275913404	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilewHwx5y"
+1623275916051	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623275926170	Marionette	INFO	Listening on port 64496
+1623275927605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623276003110	Marionette	INFO	Stopped listening on port 64491623276003751	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofilewbK8H5"
+1623276006086	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623276016486	Marionette	INFO	Listening on port 49884
+1623276016677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623276173829	Marionette	INFO	Stopped listening on port 49884
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\AppData\\Local\\Temp\\rust_mozprofileYl00mc"
+1623276171031	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1623276184705	Marionette	INFO	Listening on port 58152
+1623276185077	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7372, IPC I/O Parent] WARNING: file /builds/worker/c1623276408868	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kevin\\Ap1623276409365	Marionette	INFO	Stopped liste1623276413375	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1623276436542	Marionette	INFO	Listening on port 58524
+1623276437201	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 1564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1623276710919	Marionette	INFO	Stopped liste1623276713313	Marionette	INFO	Marionette enabled
+[GFX1-]: DoesD3D11TextureSharingWork_ColorMismatch
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623276729169	Marionette	INFO	Listening on port 52349
+1623276730015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 11: Error: 

@@ -1,0 +1,8 @@
+INFO: https://selenium.dunossauro.live/exercicio_07.html
+INFO: [nome] Before: 'nome:'
+INFO: [nome] After: 'Não vale mentir o nome'
+INFO: [email] Before: 'email:'
+INFO: [email] After: 'Esse email é mesmo válido?'
+INFO: [senha] Before: 'senha:'
+INFO: [senha] After: 'Já falei pra não colocar 1234'
+INFO: [btn] Before: ''
