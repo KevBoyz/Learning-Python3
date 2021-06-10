@@ -1991,3 +1991,4 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 1623276729169	Marionette	INFO	Listening on port 52349
 1623276730015	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://selenium.dunossauro.live/js/brython.js line 7929 > eval, line 11: Error: 
+1623279051765	Marionette	INFO	Stopped listening on port 52349
