@@ -3,7 +3,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
-
 b = Firefox()
 ac = ActionChains(b)  # Low-level api
 # b.get('https://selenium.dunossauro.live/keyboard')

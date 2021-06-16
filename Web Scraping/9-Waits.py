@@ -1,17 +1,17 @@
-from selenium.webdriver import Firefox
+from selenium.webdriver import Chrome
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from functools import partial
 
 
-f = Firefox()
+f = Chrome()
 # f.implicitly_wait(15)
 
 wdw = WebDriverWait(f, 30, 2)
 
 
 def wait(element, by, webdriver):
-    print(f'Tentando encontrar "{element}" by {by}')
+    print(f'Trying find "{element}" by {by}')
     if webdriver.find_elements(by, element):
         return True
     return False
