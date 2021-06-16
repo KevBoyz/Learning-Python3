@@ -2,7 +2,7 @@ import click
 from random import randint
 
 
-@click.group('math')
+@click.group('math', help='Math utilities')
 def math():
     ...
 
@@ -24,8 +24,8 @@ def random(s=0, e=9, c=5):
 
 
 @math.command(help='Calculate simple probability')
-@click.option('-pc', type=click.INT, prompt=True, help='Possible cases')
-@click.option('-fc', type=click.INT, prompt=True, help='Favorable cases')
+@click.argument('pc', type=click.INT)
+@click.argument('fc', type=click.INT)
 @click.option('-d', '-decimal', is_flag=True, default=False, help='[FLAG] Decimal output')
 def prob(pc, fc, d):
     if fc > pc:
@@ -38,6 +38,3 @@ def prob(pc, fc, d):
         click.echo(f'{fc / pc}')
     else:
         click.echo(f'{int((fc / pc) * 100)}%')
-
-
-math()
