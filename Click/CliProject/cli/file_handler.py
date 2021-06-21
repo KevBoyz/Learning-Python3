@@ -1,5 +1,24 @@
 import click, zipfile, os, os.path
+from exportables import *
 from re import search
+
+
+@click.command(help='Organize your files')
+@click.argument('path', metavar='<path>', type=click.Path(exists=True))
+@click.option('-m', is_flag=True, default=True, show_default=True, help='Midia organize')
+@click.option('-d', is_flag=True, default=True, show_default=True, help='Docs organize')
+@click.option('-o', is_flag=True, default=True, show_default=True, help='Create ´Others´ folder')
+@click.option('-s', is_flag=True, default=False, show_default=True, help='Organize sub-folders')
+def organize(path, m, d, o, s):
+    os.chdir(path)
+    files = os.listdir()
+    ft = file_types()
+    with click.progressbar(range(len(files)), empty_char='─', fill_char='█', bar_template=bar_template()) as p:
+        for c in p:
+            if not os.path.isdir(files[c]):
+                if get_ext(files[c]) in ft['docs']:
+                    print('doc')
+
 
 
 # Groups
@@ -50,7 +69,7 @@ def extract(path, fn, v, ex=0):
     click.secho(f'{len(list)} Files founded in {fn}') if v else None    # Verbose
     click.secho(f'{list}\n') if v else None                            # Verbose
     assert len(list) >= 0, f'Assertion error, <file> is empty or can\'t be readied>'
-    with click.progressbar(range(len(zip.namelist()))) as p:
+    with click.progressbar(range(len(zip.namelist())), empty_char='─', fill_char='█', bar_template=bar_template()) as p:
         for f in p:
             click.secho(f' - Extracting {list[f]}') if v else None       # Verbose
             try:

@@ -1,5 +1,5 @@
 from click import group
-from file_handler import Zip
+from file_handler import *
 from app_math import *
 
 
@@ -15,6 +15,7 @@ Global.add_command(Zip)
 
 # Global Commands
 Global.add_command(random)
+Global.add_command(organize)
 
 
 
