@@ -51,27 +51,27 @@ def compress(path, fn, v):
 
 @Zip.command()
 @click.argument('path', metavar='<path>', type=click.Path(exists=True))
-@click.argument('file', metavar='<file_name>', type=click.STRING)
-@click.option('-v', '-verbose', is_flag=True, default=False, show_default=True, help='Active verbose mode')
-def extract(path, file, v):
+@click.argument('fn', metavar='<file_name>', type=click.STRING)
+@click.option('-v', '-verbose', is_flag=True, default=False, show_default=True, help='Verbose mode')
+def extract(path, fn, v):
     os.chdir(path)
-    assert zipfile.is_zipfile(file), f'Assertion error, can\'t find <{file}> on <{path}>'
-    zip = zipfile.ZipFile(file + '.zip', 'r')
+    assert zipfile.is_zipfile(fn), f'Assertion error, can\'t find <{fn}> on <{path}>'
+    if not fn.rfind('.zip'):
+        fn += '.zip'
+    zip = zipfile.ZipFile(fn, 'w')
     list = zip.namelist()
-    click.secho(f'{len(list)} Files founded in {file}')if v else None    # Verbose
-    click.secho(f'{list}\n') if v else None                              # Verbose
-    assert len(list) >= 0, f'Assertion error, <{file}> is empty or can\'t be readied>'
-    fs = 0
+    click.secho(f'{len(list)} Files founded in {fn}')if v else None    # Verbose
+    click.secho(f'{list}\n') if v else None                            # Verbose
+    assert len(list) >= 0, f'Assertion error, <{fn}> is empty or can\'t be readied>'
     with click.progressbar(range(len(zip.namelist()))) as p:
         for f in p:
-            fs += 1
             click.secho(f' - Extracting {list[f]}') if v else None       # Verbose
             try:
                 zip.extract(list[f])
             except:
                 continue
     zip.close()
-    click.secho(f'{fs} files extracted')
+    click.secho(f'{len(list)- len(os.listdir("."))} files extracted')
 
 
 
