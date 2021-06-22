@@ -13,12 +13,28 @@ def organize(path, m, d, o, s):
     os.chdir(path)
     files = os.listdir()
     ft = file_types()
+    if m:
+        os.mkdir('Midia') if 'Midia' not in files else None
+        os.chdir('Midia')
+        if os.listdir('.') == 0:
+            os.mkdir('Images')
+            os.mkdir('Videos')
+            os.mkdir('Musics')
+        else:
+            os.mkdir('Images') if 'Images' not in os.listdir('.') else None
+            os.mkdir('Videos') if 'Videos' not in os.listdir('.') else None
+            os.mkdir('Musics') if 'Musics' not in os.listdir('.') else None
+        os.chdir(path)
+    if d:
+        os.mkdir('Docs') if 'Docs' not in files else None
+    if o:
+        os.mkdir('Others') if 'Docs' not in files else None
+    if s:
+        os.mkdir('Sub-Folders') if 'Docs' not in files else None
     with click.progressbar(range(len(files)), empty_char='─', fill_char='█', bar_template=bar_template()) as p:
         for c in p:
-            if not os.path.isdir(files[c]):
-                if get_ext(files[c]) in ft['docs']:
-                    print('doc')
-
+            if get_ext(files[c]) in ft['docs']:
+                print('doc')
 
 
 # Groups
@@ -66,12 +82,12 @@ def extract(path, fn, v, ex=0):
     assert zipfile.is_zipfile(fn), f'Assertion error, can\'t find <file> on <path>'
     zip = zipfile.ZipFile(fn, 'r')
     list = zip.namelist()
-    click.secho(f'{len(list)} Files founded in {fn}') if v else None    # Verbose
-    click.secho(f'{list}\n') if v else None                            # Verbose
+    click.secho(f'{len(list)} Files founded in {fn}') if v else None  # Verbose
+    click.secho(f'{list}\n') if v else None  # Verbose
     assert len(list) >= 0, f'Assertion error, <file> is empty or can\'t be readied>'
     with click.progressbar(range(len(zip.namelist())), empty_char='─', fill_char='█', bar_template=bar_template()) as p:
         for f in p:
-            click.secho(f' - Extracting {list[f]}') if v else None       # Verbose
+            click.secho(f' - Extracting {list[f]}') if v else None  # Verbose
             try:
                 zip.extract(list[f])
                 ex += 1
@@ -79,7 +95,3 @@ def extract(path, fn, v, ex=0):
                 print(e) if v else None
     zip.close()
     click.secho(f'{ex} files extracted')
-
-
-
-
