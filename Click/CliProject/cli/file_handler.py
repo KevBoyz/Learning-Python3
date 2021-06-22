@@ -1,6 +1,5 @@
-import click, zipfile, os, os.path
+import click, zipfile, os, shutil as sh
 from exportables import *
-from re import search
 
 
 @click.command(help='Organize your files')
@@ -14,7 +13,7 @@ def organize(path, m, d, o, s):
     files = os.listdir()
     ft = file_types()
     if m:
-        os.mkdir('Midia') if 'Midia' not in files else None
+        os.mkdir('Midia') if 'Midia' not in files else files.remove('Midia')
         os.chdir('Midia')
         if os.listdir('.') == 0:
             os.mkdir('Images')
@@ -26,15 +25,30 @@ def organize(path, m, d, o, s):
             os.mkdir('Musics') if 'Musics' not in os.listdir('.') else None
         os.chdir(path)
     if d:
-        os.mkdir('Docs') if 'Docs' not in files else None
+        os.mkdir('Docs') if 'Docs' not in files else files.remove('Docs')
     if o:
-        os.mkdir('Others') if 'Docs' not in files else None
+        os.mkdir('Others') if 'Others' not in files else files.remove('Others')
     if s:
-        os.mkdir('Sub-Folders') if 'Docs' not in files else None
+        os.mkdir('Sub-Folders') if 'Sub-Folders' not in files else files.remove('Sub-Folders')
+
     with click.progressbar(range(len(files)), empty_char='─', fill_char='█', bar_template=bar_template()) as p:
         for c in p:
-            if get_ext(files[c]) in ft['docs']:
-                print('doc')
+            if not os.path.isdir(files[c]):
+                if get_ext(files[c]) in ft['midia']['images']:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Midia', 'Images', files[c]))
+                elif get_ext(files[c]) in ft['midia']['videos']:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Midia', 'Videos', files[c]))
+                elif get_ext(files[c]) in ft['midia']['musics']:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Midia', 'Musics', files[c]))
+                elif get_ext(files[c]) in ft['docs']:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Docs', files[c]))
+                else:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Others', files[c]))
+            else:
+                if s:
+                    sh.move(os.path.join(path, files[c]), os.path.join('Sub-folders', files[c]))
+                else:
+                    continue
 
 
 # Groups

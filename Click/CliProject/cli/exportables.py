@@ -8,9 +8,7 @@ def get_ext(file):
 
 
 def file_types():
-    return {'midia': ('.png', '.jpeg', '.gif', '.bmp', '.tiff', '.svg',
-                      '.mp3', '.waw', '.ogg', '.wma',
-                      '.mp4', '.avi', '.wmv', '.mov', '.avchd'),
-            'docs': ('.pdf', '.ppt', '.docx', '.txt', '.xls', 'doc')}
-
-
+    return {'midia': {'images': ('.png', '.jpeg', '.gif', '.bmp', '.tiff', '.svg'),
+                      'musics': ('.mp3', '.waw', '.ogg', '.wma'),
+                      'videos': ('.mp4', '.avi', '.wmv', '.mov', '.avchd')},
+            'docs': ('.pdf', '.ppt', '.docx', '.txt', '.xls', '.doc')}
