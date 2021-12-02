@@ -1,7 +1,7 @@
 from PIL import Image
 
 im = Image.open('gabiru.jpeg')
-print(f'File dimensions: {im.size}')
+# print(f'File dimensions: {im.size}')
 
 # Resizing
 
