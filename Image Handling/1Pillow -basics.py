@@ -1,7 +1,7 @@
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, ImageDraw, ImageFont
 import matplotlib.pyplot as plt
 
-# print(f'File dimensions: {im.size}')
+# print(f'File dimensions: {im.size}'
 
 
 def resize(im):
@@ -45,10 +45,12 @@ def save(im):
 
 def compare(im):
     mod_im = im.copy()
+    mod_im = drawing('KevBoyz', 30, 5, '#000000')
     mod_im = sharp(mod_im)
     mod_im = color(mod_im)
     mod_im = contrast(mod_im)
     mod_im = brightness(mod_im)
+
 
     plt.figure(facecolor='#cccccc')
 
@@ -63,6 +65,21 @@ def compare(im):
     plt.imshow(mod_im)
 
     plt.show()
+
+
+def drawing(text, size, padding, color='#ffffff'):  # 15px size font for 100 px size axis
+    im = Image.open('gabiru.jpeg')
+    draw = ImageDraw.Draw(im)
+    font = ImageFont.truetype(r'C:\Windows\Fonts\consolab.ttf', size=size)
+    pxlen = len(text) * size
+    print(pxlen)
+    x = ((im.size[0] - pxlen) + pxlen / 2.5) - padding + 5
+    y = im.size[1] / 10 - 15
+    if y < size + padding:
+        while y < size + padding:
+            y += padding
+    draw.text((x, im.size[1] - y), text, font=font, fill=color)
+    return im
 
 
 compare(Image.open('gabiru.jpeg'))
