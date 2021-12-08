@@ -1,13 +1,11 @@
 from PIL import Image, ImageEnhance, ImageDraw, ImageFont
 import matplotlib.pyplot as plt
 
-# print(f'File dimensions: {im.size}'
-
 
 def resize(im):
-    im_rszd = im.resize(  # The obj need has repatriate for edition did to save
-        (int(im.size[0] * 1.1), int(im.size[1] * 1.1))
-    ).show()
+    return im.resize(
+        (int(im.size[0] * 1.5), int(im.size[1] * 1.5))
+    )
 
 
 def rotate(im):
@@ -50,6 +48,7 @@ def compare(im):
     mod_im = color(mod_im, 1.3)
     mod_im = contrast(mod_im, 1.1)
     mod_im = brightness(mod_im, 0.99)
+    mod_im = resize(mod_im)
 
     plt.figure(facecolor='#cccccc')
 
