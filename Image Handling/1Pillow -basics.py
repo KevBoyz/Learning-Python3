@@ -16,24 +16,24 @@ def rotate(im):
     return im
 
 
-def sharp(im):
+def sharp(im, v):
     im = ImageEnhance.Sharpness(im)
-    return im.enhance(7)
+    return im.enhance(v)
 
 
-def color(im):
+def color(im, v):
     im = ImageEnhance.Color(im)
-    return im.enhance(1.3)
+    return im.enhance(v)
 
 
-def contrast(im):
+def contrast(im, v):
     im = ImageEnhance.Contrast(im)
-    return im.enhance(1.1)
+    return im.enhance(v)
 
 
-def brightness(im):
+def brightness(im, v):
     im = ImageEnhance.Brightness(im)
-    return im.enhance(0.99)
+    return im.enhance(v)
 
 
 def save(im):
@@ -46,11 +46,10 @@ def save(im):
 def compare(im):
     mod_im = im.copy()
     mod_im = drawing('KevBoyz', 30, 5, '#000000')
-    mod_im = sharp(mod_im)
-    mod_im = color(mod_im)
-    mod_im = contrast(mod_im)
-    mod_im = brightness(mod_im)
-
+    mod_im = sharp(mod_im, 7)
+    mod_im = color(mod_im, 1.3)
+    mod_im = contrast(mod_im, 1.1)
+    mod_im = brightness(mod_im, 0.99)
 
     plt.figure(facecolor='#cccccc')
 
@@ -72,7 +71,6 @@ def drawing(text, size, padding, color='#ffffff'):  # 15px size font for 100 px 
     draw = ImageDraw.Draw(im)
     font = ImageFont.truetype(r'C:\Windows\Fonts\consolab.ttf', size=size)
     pxlen = len(text) * size
-    print(pxlen)
     x = ((im.size[0] - pxlen) + pxlen / 2.5) - padding + 5
     y = im.size[1] / 10 - 15
     if y < size + padding:
