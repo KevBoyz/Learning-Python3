@@ -48,7 +48,7 @@ def compare(im):
     mod_im = color(mod_im, 1.3)
     mod_im = contrast(mod_im, 1.1)
     mod_im = brightness(mod_im, 0.99)
-    mod_im = resize(mod_im)
+    #mod_im = resize(mod_im)
 
     plt.figure(facecolor='#cccccc')
 
