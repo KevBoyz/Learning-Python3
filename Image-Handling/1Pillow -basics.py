@@ -66,7 +66,7 @@ def compare(im):
 
 
 def drawing(text, size, padding, color='#ffffff'):  # 15px size font for 100 px size axis
-    im = Image.open('gabiru.jpeg')
+    im = Image.open('assets/gabiru.jpeg')
     draw = ImageDraw.Draw(im)
     font = ImageFont.truetype(r'C:\Windows\Fonts\consolab.ttf', size=size)
     pxlen = len(text) * size
@@ -79,4 +79,4 @@ def drawing(text, size, padding, color='#ffffff'):  # 15px size font for 100 px 
     return im
 
 
-compare(Image.open('gabiru.jpeg'))
+compare(Image.open('assets/gabiru.jpeg'))
