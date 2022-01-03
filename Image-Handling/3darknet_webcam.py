@@ -5,7 +5,7 @@ fp = 'trained-files/darknet/'
 colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255)]
 
 # load files
-# vid = cv.VideoCapture('walking-pp.mp4')  # To capture a video
+# vid = cv.VideoCapture('assets/walking-pp.mp4')  # To capture a video
 vid = cv.VideoCapture(0)
 net = cv.dnn.readNet(fp+'yolov4-tiny.weights', fp+'yolov4-tiny.cfg.txt')
 with open(fp + 'coco.names.txt', 'r') as f:

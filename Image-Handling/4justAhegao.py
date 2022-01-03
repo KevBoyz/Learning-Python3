@@ -49,7 +49,6 @@ def get_video_type(filename):
 vid = cv2.VideoCapture(0)
 out = cv2.VideoWriter(filename, get_video_type(filename), 25, get_dims(vid, res))
 
-print(3)
 algorithm = cv2.CascadeClassifier('trained-files/haarcascades/haarcascade_frontalface_default.xml')
 ah = cv2.imread('assets/ah1.png', cv2.IMREAD_UNCHANGED)
 while True:

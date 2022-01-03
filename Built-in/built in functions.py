@@ -17,8 +17,8 @@ ages = [5, 12, 17, 18, 24, 32]
 
 def myFunc(x):
   if x < 18:
-    return False       # filter() retorna um iterador onde os itens são filtrados por                       
-  else:                # uma função para testar se o item é aceito ou não
+    return False                            
+  else:                
     return True
 
 adults = filter(myFunc, ages)
