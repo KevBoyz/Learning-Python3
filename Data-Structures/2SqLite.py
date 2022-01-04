@@ -15,5 +15,7 @@ conn.execute("INSERT INTO contacts (name, email, number) \
       Values ('Prs2', 'pers@xn', 777)")
 # conn.commit()
 
-cursor = conn.execute('SELECT id, name, email, number FROM contacts where id=1')
-[print(f'Hello {row[1]}!') for row in cursor]
+conn.execute('DELETE FROM contacts where id=2')
+conn.execute('UPDATE contacts SET number = 999 where name="Kevin"')
+user = conn.execute('SELECT id, name, email, number FROM contacts where id=1')
+[print(f'Hello {row[1]}! ({row[3]}) is your number') for row in user]
