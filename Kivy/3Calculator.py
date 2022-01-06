@@ -3,7 +3,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.properties import StringProperty
 import shutil as sh
 
-sh.move('./assets/btns.kv', '.')
+sh.move('assets/btns3.kv', '.')
 
 
 class MyBoxLayout(BoxLayout):
@@ -16,11 +16,10 @@ class MyBoxLayout(BoxLayout):
             self.prop0 = '0'
 
 
-
-class btnsApp(App):
+class btns3App(App):
     def build(self):
         return MyBoxLayout()
 
 
-btnsApp().run()
-sh.move('btns.kv', './assets')
+btns3App().run()
+sh.move('btns3.kv', './assets')
