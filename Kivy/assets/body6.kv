@@ -3,6 +3,7 @@
         orientation: 'vertical'
         MDToolbar:
             title: 'The Super-Tuper APP'
+            specific_text_color: 'white'
             left_action_items: [["menu", lambda x: x]]
             right_action_items: [["dots-vertical", lambda x: x]]
         FormLogin:
@@ -23,9 +24,32 @@
         password: True
     MDRaisedButton:
         text: 'Login'
+        font_size: 25
+        theme_text_color: 'Custom'
+        text_color: 1, 1, 0.99, 1
         pos_hint: {'center_x': .5, 'center_y': .38}
         size_hint_x: 0.9
     MDTextButton:
         text: 'Forget your password?'
         pos_hint: {'center_x': .5, 'center_y': .29}
-        color: '2196F4'
+        on_release: root.open_card()
+
+<Content>:
+    size_hint_y: None
+    type: 'custom'
+    orientation: 'vertical'
+    height: "175dp"
+    MDTextField:
+        hint_text: 'Código enviado por email'
+    MDTextField:
+        hint_text: 'Nova senha'
+        password: True
+    MDTextField:
+        hint_text: 'Confirmar nova senha'
+        password: True
+    MDRaisedButton:
+        text: 'Retrieve Password'
+        theme_text_color: 'Custom'
+        text_color: 1, 1, 0.99, 1
+        size_hint_x: .8
+        pos_hint: {'center_x': .5, 'center_y': .4}
