@@ -2,7 +2,6 @@ from kivymd.app import MDApp
 from kivymd.uix.floatlayout import FloatLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivymd.uix.dialog import MDDialog
-from kivymd.uix.button import MDRaisedButton
 from os import listdir
 import shutil as sh
 
@@ -16,6 +15,7 @@ class MyScreen(FloatLayout):
 
 class FormLogin(FloatLayout):
     dialog = None
+
     def open_card(self):
         if not self.dialog:
             self.dialog = MDDialog(
@@ -25,8 +25,6 @@ class FormLogin(FloatLayout):
 
             )
         self.dialog.open()
-
-
 
 
 class Content(BoxLayout):
