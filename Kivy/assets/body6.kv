@@ -1,0 +1,31 @@
+<MyScreen@Screen>:
+    BoxLayout:
+        orientation: 'vertical'
+        MDToolbar:
+            title: 'The Super-Tuper APP'
+            left_action_items: [["menu", lambda x: x]]
+            right_action_items: [["dots-vertical", lambda x: x]]
+        FormLogin:
+
+<FormLogin@FloatLayout>:
+    MDIconButton:
+        icon: 'language-python'
+        user_font_size: '75sp'
+        pos_hint: {'center_x': .5, 'center_y': .8}
+    MDTextField:
+        size_hint_x: 0.9
+        hint_text: 'Email:'
+        pos_hint: {'center_x': .5, 'center_y': .6}
+    MDTextField:
+        size_hint_x: 0.9
+        hint_text: 'Password:'
+        pos_hint: {'center_x': .5, 'center_y': .5}
+        password: True
+    MDRaisedButton:
+        text: 'Login'
+        pos_hint: {'center_x': .5, 'center_y': .38}
+        size_hint_x: 0.9
+    MDTextButton:
+        text: 'Forget your password?'
+        pos_hint: {'center_x': .5, 'center_y': .29}
+        color: '2196F4'
