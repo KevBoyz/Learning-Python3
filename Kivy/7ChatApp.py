@@ -22,10 +22,11 @@ class MyRoot(BoxLayout):
 
     def send_message(self):
         client.send(f'{self.nickname_text.text}: {self.message_text.text}'.encode('utf-8'))
+        self.message_text.text = ''
 
     def connect_to_server(self):
         if self.nickname_text != "":
-            client.connect((self.ip_text.text, 756))
+            client.connect((self.ip_text.text, 7562))
             msg = client.recv(1024).decode('utf-8')
             if msg == "NICK":
                 client.send(self.nickname_text.text.encode('utf-8'))
