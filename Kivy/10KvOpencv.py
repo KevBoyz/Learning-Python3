@@ -22,7 +22,6 @@ class MainApp(MDApp):
         return layout
 
     def load_video(self, *args):
-        ret, frame = self.cap.read()
         ret, frame1 = self.cap.read()
         ret, frame2 = self.cap.read()
         diff = cv2.absdiff(frame1, frame2)
@@ -36,6 +35,8 @@ class MainApp(MDApp):
             if cv2.contourArea(contour) < 900:
                 continue
             cv2.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        frame1 = cv2.resize(frame1, (frame1.shape[1] * 2, frame1.shape[0] * 2))
+        frame1 = cv2.flip(frame1, 1, 0)
         buffer = cv2.flip(frame1, 0).tostring()
         texture = Texture.create(size=(frame1.shape[1], frame1.shape[0]), colorfmt='bgr')
         texture.blit_buffer(buffer, colorfmt='bgr', bufferfmt='ubyte')
