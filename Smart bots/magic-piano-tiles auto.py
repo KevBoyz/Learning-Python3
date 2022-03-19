@@ -15,6 +15,7 @@ def click(x, y=400):
 def run():
     while True:
         if is_pressed('w'):
+            print('clicked')
             while True:
                 if is_pressed('e'):
                     break
