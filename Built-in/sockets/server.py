@@ -1,4 +1,3 @@
-
 import socket
 
 host = socket.gethostbyname(socket.gethostname())
