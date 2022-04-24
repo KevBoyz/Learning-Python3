@@ -6,3 +6,6 @@ print(reduce(lambda x, y: x+y, [30, 20, 50]))
 
 print((lambda x: x % 2 and 'odd' or 'even')(5))
 print((lambda x: "Even" if x % 2 == 0 else "Odd")(3))
+
+numbers = map(lambda x: x, [1, 2, 3, 4, 5])
+print(next(numbers))

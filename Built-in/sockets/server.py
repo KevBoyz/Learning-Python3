@@ -1,36 +1,4 @@
-import socket
-import selectors
-import types
 
-host = socket.gethostbyname(socket.gethostname())
-port = 7562
-sel = selectors.DefaultSelector()
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.setblocking(False)  # Multiprocess of accepts
-s.bind((host, port))
-print(f'The server is running... Host: {host} Port: {port}')
-s.listen()
-sel.register(s, selectors.EVENT_READ, data=None)
-
-
-def accept_warpper():
-    conn, addr = s.accept()
-    conn.setblocking(False)  # exec and not stop application
-
-
-try:
-    while True:
-        events = sel.select(timeout=None)
-        for key, mask in events:
-            if key.data is None:
-                ...
-except:
-    pass
-
-
-
-"""
 import socket
 
 host = socket.gethostbyname(socket.gethostname())
@@ -49,4 +17,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if not data:
                 break
             conn.sendall(data)  # Send all bytes back to client in one package
-"""
+

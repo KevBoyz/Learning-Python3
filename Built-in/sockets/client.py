@@ -1,12 +1,4 @@
-import socket
 
-host = socket.gethostbyname(socket.gethostname())
-port = 7562
-
-
-# s.connect_ex  # Connect without stop te application
-
-"""
 import socket
 
 host = socket.gethostbyname(socket.gethostname())
@@ -18,4 +10,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     data = s.recv(1024)
 
 print('Recebido: ', repr(data))
-"""
