@@ -1,4 +1,5 @@
 from contextlib import contextmanager
+import sys
 
 v = False
 # range(0, 100)  # generator function example
@@ -12,11 +13,9 @@ def print_all(iterator, v=False):
 
 def the_next_function():  # Generate line-per-life of a file that is a generator
     with open('lambda.py', 'r') as file:
-        print(file.__next__())
-        print(file.__next__())
-        print(file.__next__())
-        print(file.__next__())
-        print(file.__next__())
+        for i in range(0, 5):
+            print(file.__next__())
+
 
 
 def generator_function():  # Iterable object, not simple data
@@ -105,7 +104,7 @@ def context():
 
 
 def coroutine(op1=False, op2=True):
-    print('Coro initialized')
+    print('Coro initialized') if v else None
     while True:
         val = yield
         if op1:
@@ -117,5 +116,14 @@ def coroutine(op1=False, op2=True):
 
 c = coroutine()
 c.__next__()  # Is necessary initialize the coroutine
-print(c.send('Kev Boyz'))  # if op1: c.send([1, 2, 3, 4]) -> 10, 20, 30, 40
-print_all(c, True)
+# print(c.send('Kev Boyz'))  # if op1: c.send([1, 2, 3, 4]) -> 10, 20, 30, 40
+print_all(c)
+
+
+def id_gen(_range):
+    for i in range(999999, _range, 99999999 * 2):
+        yield i ** 9
+
+
+for id in id_gen(99 ** 9999):
+    print(id / 1, sys.getsizeof(id))

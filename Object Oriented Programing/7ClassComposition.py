@@ -5,7 +5,6 @@ class Client:
         self.addresses = []
 
     def insert_address(self, city, state):
-
         self.addresses.append(Address(city, state).data())
 
     def list_addresses(self):

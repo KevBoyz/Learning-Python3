@@ -13,7 +13,7 @@ conn.execute("INSERT INTO contacts (name, email, number) \
       Values ('Kevin', 'k@bz', 555)")
 conn.execute("INSERT INTO contacts (name, email, number) \
       Values ('Prs2', 'pers@xn', 777)")
-# conn.commit()
+conn.commit()
 
 conn.execute('DELETE FROM contacts where id=2')
 conn.execute('UPDATE contacts SET number = 999 where name="Kevin"')

@@ -45,10 +45,10 @@ for index, thread in enumerate(threads):  # 1 per 1
 """
 # Using the threadPoolExecutor
 
-# with ThreadPoolExecutor(max_workers=3) as executor:  # Start up a group of threads
-#   executor.map(thprocess, (1, 2, 3))
+with ThreadPoolExecutor(max_workers=3) as executor:  # Start up a group of threads
+   executor.map(thprocess, (5, 7, 6))
 
-# th.Timer(3, thprocess, args=(4,)).start()  # Schedule a function with threading
+th.Timer(3, thprocess, args=(4,)).start()  # Schedule a function with threading
 
 # Multiple threads handle
 
