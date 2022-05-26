@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, url_for, flash, redirect
 from werkzeug.exceptions import abort
 import sqlite3
 
-app = Flask(__name__)
+app = Flask('main')
 app.config['SECRET_KEY'] = '7562'
 
 
@@ -58,8 +58,12 @@ def create():
             conn.commit()
             conn.close()
             return redirect(url_for('home'))
-
     return render_template('post_creation.html')
+
+
+@app.route('/user')
+def user():
+    return 'user_page', 404
 
 
 if __name__ == '__main__':
