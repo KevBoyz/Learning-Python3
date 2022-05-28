@@ -14,19 +14,21 @@
     </header>
     <main>
         <h2>Login Page, don't have a accont? <a href="{{url_for('register')}}">create one</a></h2>
-        <form method="get">
-            <div class="mb-3">
-                <label for="email">Email</label>
-                <input type="text" name="name" id="email" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="text" name="password" id="password" class="form-control">
-            </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary" id="loginBtn">Login</button>
-            </div>
-        </form>
+        <div id="form-area">
+            <div id="logo"></div>
+            <form method="post">
+                <div class="mb-3">  
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Adress">
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="password" id="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary" id="loginBtn">Login</button>
+                </div>
+            </form>
+        </div>
+        
     </main>
 </body>
 </html>

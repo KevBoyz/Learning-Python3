@@ -8,7 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.env = os.getenv('env')
-app.config['secret_key'] = os.getenv('secret_key')
+app.config['secret_key'] = '9782'
 
 
 def get_db():
