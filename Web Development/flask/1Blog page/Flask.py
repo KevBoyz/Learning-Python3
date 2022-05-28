@@ -1,9 +1,14 @@
-from flask import Flask, render_template, request, url_for, flash, redirect
+from flask import Flask, render_template, request, url_for, flash, redirect, session
 from werkzeug.exceptions import abort
+from dotenv import load_dotenv
+import os
 import sqlite3
 
-app = Flask('main')
-app.config['SECRET_KEY'] = '7562'
+load_dotenv()
+
+app = Flask(__name__)
+app.env = os.getenv('env')
+app.config['secret_key'] = os.getenv('secret_key')
 
 
 def get_db():
@@ -25,7 +30,7 @@ def get_post(post_id):
         abort(404)
     else:
         return post
-
+        
 
 @app.route('/')
 def home():
@@ -66,5 +71,10 @@ def user():
     return 'user_page', 404
 
 
+@app.route('/admin')
+def admin_page():
+    return f'The admin password is: {app.config["SECRET_KEY"]}'
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
