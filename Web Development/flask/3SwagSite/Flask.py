@@ -1,9 +1,9 @@
-import sqlite3
-from flask import Flask, render_template, url_for, request, redirect, flash
+from flask_login import LoginManager, login_user, current_user, login_required, logout_user, UserMixin
+from flask import Flask, render_template, url_for, request, redirect
 from flask_bcrypt import Bcrypt
-from flask_sqlalchemy import SQLAlchemy
-# from flask_login import LoginManager, login_user, current_user, login_required, logout_user, UserMixin
+
 from dotenv import load_dotenv
+import sqlite3
 import os
 
 load_dotenv()
@@ -13,22 +13,29 @@ app.secret_key = os.getenv('secret_key')
 app.env = os.getenv('env')
 app.debug = os.getenv('debug')
 app.database = os.getenv('database')
-
-"""login_manager = LoginManager()
-login_manager.session_protection = "strong"
-login_manager.login_view = "login"
-login_manager.login_message_category = "info"""
-
 bcrypt = Bcrypt(app)
-
-"""login_manager.init_app(app)"""
-bcrypt.init_app(app)
 
 
 def load_db():
     conn = sqlite3.connect(app.database)
     conn.row_factory = sqlite3.Row
     return conn
+
+
+class User(UserMixin):
+    conn = load_db()
+    id = ...
+    name = ...
+    email = ...
+    password = ...
+
+
+login_manager = LoginManager()
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return ...
 
 
 @app.route('/')
