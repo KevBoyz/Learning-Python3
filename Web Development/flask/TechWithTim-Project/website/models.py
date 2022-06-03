@@ -16,4 +16,3 @@ class User(UserMixin, db.Model):
     password = db.Column(db.String(150))  # 150 = max length
     first_name = db.Column(db.String(150))
     notes = db.relationship('Note')  # Need capitalize for this one
-
