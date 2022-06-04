@@ -24,7 +24,7 @@ def login():
                 flash('Error, incorrect password.', category='error')
         else:
             flash('Email not found', category='error')
-    return render_template('login.html')
+    return render_template('login.html', user=current_user)
 
 
 @auth.route('/logout')
