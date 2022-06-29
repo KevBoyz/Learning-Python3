@@ -1,6 +1,5 @@
-import cv2
 import cvzone as cz
-import numpy as np
+import cv2
 import os
 
 
@@ -30,11 +29,8 @@ def get_dims(cap, res='480p'):
     return width, height
 
 
-# Video Encoding, might require additional installs
-# Types of Codes: http://www.fourcc.org/codecs.php
 VIDEO_TYPE = {
     'avi': cv2.VideoWriter_fourcc(*'XVID'),
-    # 'mp4': cv2.VideoWriter_fourcc(*'H264'),
     'mp4': cv2.VideoWriter_fourcc(*'XVID'),
 }
 
