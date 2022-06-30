@@ -11,14 +11,14 @@ prices += np.random.randn(len(prices)) * 2
 
 fig, ax = plt.subplots()
 ax.plot(prices)
-ax.plot(prices, 'bo')
+ax.plot(prices, 'b')
 # plt.show()
 
 
 y = np.random.random(20)
 x = np.arange(0, y.size)
 
-new_length = 80
+new_length = 100
 new_x = np.linspace(x.min(), x.max(), new_length)
 new_y = interpolate.interp1d(x, y, kind='linear')(new_x)
 
