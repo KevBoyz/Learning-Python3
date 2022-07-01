@@ -25,5 +25,5 @@ vendas = vendas.merge(gerentes)
 gerentes_loja = vendas[['ID Loja', 'Gerente']]
 gerentes_loja = gerentes_loja.drop_duplicates()
 
-print(gerentes_loja)
+print(transacoes)
 
