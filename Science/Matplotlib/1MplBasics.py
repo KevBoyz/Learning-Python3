@@ -1,20 +1,22 @@
 from matplotlib import pyplot as plt
+from scipy import interpolate
 import numpy as np
 
-x = np.linspace(2, 8*np.pi, 400)
-fig, axs = plt.subplots(3)
+x = np.linspace(0, 8*np.pi, 100)
+fig, axs3 = plt.subplot_mosaic([['upleft'],
+                                ['lowright']], layout='constrained')
 
-y = np.sin(x)
+sin = np.sin(x)
+cos = np.cos(x)
+tan = np.tan(x)
+cosh = np.cosh(x)
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y, color='#ff0000')
+axs4 = axs3['upleft'].secondary_xaxis('top', functions=(np.rad2deg, np.deg2rad))
+axs4 = axs3['lowright'].secondary_xaxis('top', functions=(np.rad2deg, np.deg2rad))
 
-plt.plot(x, y)
 
-y = np.cos(x)
-
-plt.subplot(1, 2, 2)
-plt.plot(x, y, color='#ff0000')
+axs3['upleft'].plot(sin)
+axs3['lowright'].plot(cos)
 
 
 plt.show()
