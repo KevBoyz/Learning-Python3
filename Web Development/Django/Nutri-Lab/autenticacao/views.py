@@ -9,6 +9,7 @@ from django.http import HttpResponse
 from django.conf import settings
 from .models import Ativacao
 from hashlib import sha256
+from django.db import models
 import os
 
 
