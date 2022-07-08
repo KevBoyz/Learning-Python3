@@ -59,8 +59,7 @@ def logar(request):
             return redirect('/auth/logar')
         else:
             auth.login(request, usuario)
-            print('lol')
-            return redirect('/')
+            return redirect('/pacientes')
 
 
 def sair(request):
