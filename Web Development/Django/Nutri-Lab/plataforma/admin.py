@@ -4,4 +4,4 @@ from .models import Pacientes, DadosPaciente, Refeicao, Opcao
 admin.site.register(Pacientes)
 admin.site.register(DadosPaciente)
 admin.site.register(Refeicao)
-admin.site.regiter(Opcao)
+admin.site.register(Opcao)
