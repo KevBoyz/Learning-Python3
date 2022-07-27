@@ -4,31 +4,7 @@
 
 
 {% block 'plataforma' %}
-    {% if messages %}
-        <br>
-        {% for message in messages %}
-            <div class="alert {{message.tags}}">
-                {{message}}
-            </div>
-        {% endfor %}
-    {% endif %}
-    <br>
-    <div class="row">
-        <div class="col-md-3">
-                {% if paciente.sexo == "M"%}
-                    <img src="{% static 'plataforma/img/perfil2.png' %}">
-                {% else %}
-                    <img src="{% static 'plataforma/img/perfil1.png' %}">
-                {% endif %}
-        </div>
-        <div class="col-md-3 dados descricao">
-            <h4>{{paciente.nome}}</h4>
-            <h6>{{paciente.idade}} Anos</h6>
-        </div>
-
-    </div>
-    <hr>
-
+    
     <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modal">
         + Nova refeição
     </button>
@@ -104,7 +80,7 @@
                         <br>
                         <br>
                         <div id="form-refeicao" style="display: block;">
-                            <form action="{% url 'refeicao' paciente.id %}" method="POST">{% csrf_token %}
+                            <form action="{% url 'refeicao' paciente.id %}" method="POST"> {% csrf_token %}
                                 <label for="validationServerUsername">Título</label>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Ex: Café da manhã" name="titulo">
