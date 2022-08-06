@@ -5,7 +5,8 @@ from moviepy.editor import (
     VideoFileClip,
     ImageClip,
     CompositeVideoClip,
-    clips_array
+    clips_array,
+    TextClip,
 )
 
 
@@ -23,7 +24,7 @@ image = ImageClip('assets/david.jpg', duration=5).resize(.5)
 # compose.audio = audio
 # compose.write_videofile('test.mp4')
 
-video_0 = video.resize(0.5)
+"""video_0 = video.resize(0.5)
 video_1 = VideoFileClip('assets/video_1.mp4').subclip(0, 5).resize(.5)
 
 compose = clips_array(  # Grid composition
@@ -32,6 +33,11 @@ compose = clips_array(  # Grid composition
         [video_1, video_0]
     ]
 )
-compose.audio = audio
+compose.audio = audio"""
+
+# Need install ImageMagick https://imagemagick.org
+text = TextClip('wmark', color='white', fontsize=50).set_duration(3)
+
+compose = CompositeVideoClip([video, text]).set_audio(audio)
 
 compose.preview()
