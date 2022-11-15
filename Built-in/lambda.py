@@ -12,4 +12,3 @@ odds = filter(lambda x: x % 2 != 0, [1, 2, 3, 4, 5, 6])
 for n in odds:
     numbers.remove(n)
 print(numbers)
-

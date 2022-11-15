@@ -51,8 +51,3 @@ with ThreadPoolExecutor(max_workers=3) as executor:  # Start up a group of threa
 th.Timer(3, thprocess, args=(4,)).start()  # Schedule a function with threading
 
 # Multiple threads handle
-
-
-
-
-
