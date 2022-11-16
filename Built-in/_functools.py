@@ -1,5 +1,17 @@
 import functools as fc
+import operator as o
 
+sum2 = fc.partial(o.add, 2)
+mul2 = fc.partial(o.mul, 2)
+
+all_sum = fc.partial(fc.reduce, o.add) 
+print(all_sum([1, 2, 3]))  # print(fc.reduce(lambda x,y: x+y, [1,2,3,4]))
+
+all_mul = fc.partial(fc.reduce, o.mul)
+print(all_mul([5, 5]))
+
+mulmap = fc.partial(map, mul2)
+print(list(mulmap([5, 2, 3])))
 
 def exp(x, y):
     ...
@@ -38,6 +50,11 @@ def steps(n):
             +   steps(n - 1)
         )
 
-print(steps(7)) # 7 misses 6 hits
-print(steps(4)) # 0 misses 1 hit
-print(steps.cache_info())
+#print(steps(7)) # 7 misses 6 hits
+#print(steps(4)) # 0 misses 1 hit
+#print(steps.cache_info())
+
+class Xpto:
+    @fc.cached_property  # Result will be cached and 
+    def l(self):         # generated once time. 
+        return list(range(0, 100))
