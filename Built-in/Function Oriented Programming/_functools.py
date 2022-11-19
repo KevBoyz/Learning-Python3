@@ -1,17 +1,18 @@
 import functools as fc
 import operator as o
 
+
 sum2 = fc.partial(o.add, 2)
 mul2 = fc.partial(o.mul, 2)
 
 all_sum = fc.partial(fc.reduce, o.add) 
-print(all_sum([1, 2, 3]))  # print(fc.reduce(lambda x,y: x+y, [1,2,3,4]))
+#print(all_sum([1, 2, 3]))  # print(fc.reduce(lambda x,y: x+y, [1,2,3,4]))
 
 all_mul = fc.partial(fc.reduce, o.mul)
-print(all_mul([5, 5]))
+#print(all_mul([5, 5]))
 
 mulmap = fc.partial(map, mul2)
-print(list(mulmap([5, 2, 3])))
+#print(list(mulmap([5, 2, 3])))
 
 def exp(x, y):
     ...
@@ -58,3 +59,21 @@ class Xpto:
     @fc.cached_property  # Result will be cached and 
     def l(self):         # generated once time. 
         return list(range(0, 100))
+
+
+import timeit
+def time_me(number_of_times):
+    def decorator(func):
+        @fc.wraps(func)
+        def wraps(*args, **kwargs):
+            r = timeit.timeit(func, number=number_of_times)
+            print(r/number_of_times)
+        return wraps
+    return decorator
+
+@time_me(10)
+def function():
+    return 2*2
+
+
+function()
