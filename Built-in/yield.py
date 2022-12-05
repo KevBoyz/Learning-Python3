@@ -17,7 +17,6 @@ def the_next_function():  # Generate line-per-life of a file that is a generator
             print(file.__next__())
 
 
-
 def generator_function():  # Iterable object, not simple data
     print('before 1') if v else None
     yield 1

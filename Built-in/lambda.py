@@ -1,4 +1,5 @@
 from functools import reduce
+from operator import mul
 
 print(list(map(lambda x: x*3, [2, 3, 4])))
 print(list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5, 6])))

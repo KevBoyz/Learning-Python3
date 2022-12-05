@@ -1,8 +1,5 @@
-from itertools import *
+import itertools as it
 
-def m(x, y):
-    for c in range(x, y):
-        yield x * y
-
-
-l = [m(5, 10)]
+for i, c in enumerate(it.count(0, 7)):
+    print(f'{i}: {c}')  # Infinity sequence
+    
