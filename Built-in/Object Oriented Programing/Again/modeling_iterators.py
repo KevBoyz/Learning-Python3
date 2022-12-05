@@ -37,4 +37,4 @@ for i, v in enumerate(i1):  # iter/next call
     i1[i] = v*2
 i1 = [v **2 for v in i1]  # for comprehensions
 
-print(len(i1))
+print(i1)
