@@ -18,3 +18,4 @@ print(numbers)
 from itertools import takewhile
 
 print(list(takewhile(lambda x: x <= 5, list(range(1, 11)))))
+print(list(map(bool, [0,1,2])))

@@ -49,6 +49,3 @@ people_deque.appendleft(Person('Chaash', 70, 'Male'))  # Efficient addition
 people_deque.extend([1, 2, 3])
 print(people_deque)
 print(people_deque.count(kevin))
-
-
-

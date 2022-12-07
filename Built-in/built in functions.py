@@ -32,3 +32,8 @@ for x in adults:
 # Se hello for qualquer um dos tipos especificados retorna True
 
 # print(round(5.76543, 2))  # Arredonda um valor float, sintaxe: round(number, digits)
+
+# print(list(zip(list1, list2)))  # Une elementos de mesmo index
+
+# zl = zip(list1,list2)  # Zip
+# print(list(zip(*zl)))  # unZip

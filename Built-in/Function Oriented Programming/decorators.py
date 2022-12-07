@@ -69,6 +69,7 @@ class Demo:
     def __call__(self):
         print(self.func.__name__)
         self.func()
+        
 
 @Demo
 def lol():
