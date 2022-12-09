@@ -2,7 +2,6 @@ import operator as o
 from functools import reduce
 
 
-
 #  print(reduce(lambda x, y: x + y, [1, 2 ,3, 4, 5]))  # Bad
 print(reduce(o.add, [1, 2, 3, 4, 5]))  # Good
 
