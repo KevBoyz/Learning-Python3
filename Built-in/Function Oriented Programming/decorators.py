@@ -22,25 +22,30 @@ def xpto(_range):  # Nested functions
 
 
 def debug(func):
+    """
+    Debug function
+    """
     @wraps(func)
     def wrap(*args, **kwargs):
-        #print('function:', func.__name__)
         return(func(*args, **kwargs))
     return wrap
 
 
 @debug
 def f(x):
+    """
+    f, the function
+    """
     return x**2
 
 
-#print(f(5))
+print(help(f.__wrapped__))
 
 
-def timer2(n):  # Decorator args
-    def decorator(func):  # Function
+def timer2(n):  # Decorator args  (extra(parametric) layer)
+    def decorator(func):  # Function  (decoraor layer)
         @wraps(func)
-        def wrap(*args, **kwargs):  # Func args
+        def wrap(*args, **kwargs):  # Func args  (inner layer)
             times = []
             for c in range(0, n):
                 start = time()
@@ -76,3 +81,33 @@ def lol():
     print('something')
 
 lol()
+
+
+# More decorators
+
+def deco1(func):
+    def wrap(*args, **kwargs):
+        r = 0
+        for c in range(0, 3):
+            r += func(*args, **kwargs)
+        return r
+    return wrap
+
+
+def deco2(func):
+    def wrap(*args, **kwargs):
+        new_args = []
+        for c in range(0, len(args)):
+            new_args.append(args[c]*2)
+        return func(*new_args, **kwargs)
+    return wrap
+
+
+@deco2
+@deco1
+def ssum(x, y):
+    return x+y
+
+
+print(ssum(1,2))  # 18
+    
