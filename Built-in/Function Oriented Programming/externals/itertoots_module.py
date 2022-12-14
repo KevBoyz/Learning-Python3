@@ -72,3 +72,5 @@ data = [
 for key, value in it.groupby(data, lambda x: x[0]):
     print({key: list(value)})
 """
+
+#print(list(it.zip_longest(['a', 'b', 'c'], [1, 2], fillvalue='-')))
