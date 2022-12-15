@@ -38,7 +38,6 @@ class MeioAMeio(Pizza):
         return self.sabor1.ingredientes() + self.sabor2.ingredientes()
 
 
-
 class Pizzaria:
     def __init__(self) -> None:
         self._forno = Forno()  # Encapsing 
