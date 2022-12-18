@@ -1,4 +1,4 @@
-from _collections_abc import Container as abc_container, Sized, Collection
+from _collections_abc import Container as abc_container, Sized, Collection, MutableSequence
 from typing import Iterator
 
 
@@ -20,17 +20,22 @@ class Coleção(Collection):  # Try remove one of this methods
         super().__init__()
         self.c = c
 
-    def __contains__(self, __x: object) -> bool:
-        return super().__contains__(__x)
+    def __contains__(self, x: object) -> bool:
+        return x in self.c
     
     def __len__(self) -> int:
-        return super(self.c).__len__()
+        return len(self.c)
 
     def __iter__(self) -> Iterator:
-        return super().__iter__()
+        return self
 
-"""    def __getitem__(self, i):
-        return super().__getitem__(i)"""
+    def __getitem__(self, i):  # This only method implements count, index, iterator
+        return self.c[i]
 
 
 c = Coleção(1,2,3,4,5)
+
+
+class CrazyList(MutableSequence):
+    ...  # Try insstanciate this
+
