@@ -4,7 +4,7 @@ from random import randint
 
 class Prototype:
     """I'm a doc string!"""
-    year = int(datetime.now().year)  # Class variable, she's going be in all objects
+    year = int(datetime.now().year)  # Class variable, it's going be in all objects
 
     def __init__(self, name, age):  # This dunder method initialize the object
         self.name = name
