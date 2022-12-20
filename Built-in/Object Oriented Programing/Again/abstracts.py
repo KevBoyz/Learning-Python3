@@ -53,7 +53,7 @@ class FilaDeSuperMercado(Fila):
         return f'FilaDeSuperMercado({self.fila})'
 
         
-
-
-
-c = FilaDeSuperMercado()
+@Fila.register  # Set this class as a sub of Fila withough implement nothing
+class FilaDeBanheiro:  # This say that class is Fila like
+    ...  # insinstance(FilaDeBanheiro, Fila)  == True
+    
