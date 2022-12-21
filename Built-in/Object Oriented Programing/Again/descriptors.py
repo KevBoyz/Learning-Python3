@@ -35,6 +35,9 @@ class AgeDescriptor2:
     def __get__(self, obj, objtype=None):
         return self._age
 
+    def __delete__(self):
+        del self._age
+
 
 class Client2:
 
