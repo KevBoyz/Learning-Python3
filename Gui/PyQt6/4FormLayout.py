@@ -13,4 +13,3 @@ window.setLayout(layout)
 window.show()
 
 exit(app.exec())
-
