@@ -1,4 +1,5 @@
 from PyQt6.QtWidgets import *
+from PyQt6.QtWebChannel import QWebChannel
 
 
 class LoginForm(QWidget):
@@ -13,8 +14,9 @@ class LoginForm(QWidget):
         self.passwordField = QLineEdit()
         self.passwordField.setPlaceholderText('Passwwordd')
 
-        self.layout.addRow('Login', self.loginField)
-        self.layout.addRow('Password', self.passwordField)
+        # This strings are used to instaciate QLabel's
+        self.layout.addRow('<h4>Login</h4>', self.loginField)
+        self.layout.addRow('<h4>Password</h4>', self.passwordField)
 
         self.send_button = QPushButton("Login")
         self.send_button.clicked.connect(self.check_login)
