@@ -10,7 +10,7 @@ from PyQt6.QtWidgets import (
 
 class Window(QMainWindow):
     def __init__(self):
-        super().__init__(parent=None)
+        super().__init__(parent=None)asdasda
         self.setWindowTitle("QMainWindow")
         self.setCentralWidget(QLabel("I'm the Central Widget"))
         self._createMenu()
