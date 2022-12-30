@@ -13,6 +13,7 @@ class LoginForm(QWidget):
         self.loginField.setPlaceholderText('Loginnn')
         self.passwordField = QLineEdit()
         self.passwordField.setPlaceholderText('Passwwordd')
+        self.passwordField.setEchoMode(QLineEdit.EchoMode.Password)
 
         # This strings are used to instaciate QLabel's
         self.layout.addRow('<h4>Login</h4>', self.loginField)
