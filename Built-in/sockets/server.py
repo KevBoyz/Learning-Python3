@@ -1,6 +1,6 @@
 import socket
 
-host = socket.gethostbyname(socket.gethostname())
+host = ''  #socket.gethostbyname(socket.gethostname())
 port = 7562  # > 1024
 
 # Params: Net type, Conn type; Physical net, Socket stream -> can be archive block

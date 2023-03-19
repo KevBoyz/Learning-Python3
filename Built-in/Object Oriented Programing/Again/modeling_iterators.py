@@ -70,3 +70,6 @@ def range2(start, max):  # Better generator
 
 for e in range2(0, 5):
     print(e)
+
+iii = iter1([[1,2,3], [1,2,3]])
+print(iii[0][0])
