@@ -59,7 +59,7 @@ for c in range(0, len(faltas_mandante)):
     corr.append(
         gols_mandante[c] * faltas_mandante[c]
     )
-print(media(corr))
+#print(media(corr))
 
 
 
@@ -79,10 +79,7 @@ for k, v in Counter(df['gols_mandante']).items():
     axs[1].bar(k, v, color='blue')
 
 
-plt.show()
 
 plt.title('Faltas e Gols do time mandante')
 plt.scatter([x for x in range(len(df['faltas_mandante']))], df['faltas_mandante'], color='red')
 plt.scatter([x for x in range(len(df['faltas_mandante']))], df['gols_mandante'], color='green')
-
-plt.show()

@@ -7,7 +7,7 @@ def b(x=1):  # Named arg
 
 
 def c(*, x=2, y=3): # Explicit Named args
-    print(x**y)  
+    print(x**y)
 
 
 def d(x=2, *, y=5):  # Hybrids <- * -> Required nameds

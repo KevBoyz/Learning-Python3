@@ -28,6 +28,7 @@ def generator_function():  # Iterable object, not simple data
 
 # print(generator_function)  # Generator Function
 # print(generator_function())  # Generator Object
+    
 generator = generator_function()
 for value in generator_function():  # Consumes all yield
     print(value) if v else None
@@ -85,10 +86,10 @@ print_all(_range)
 
 
 def gen_exp():
-    yield from (n for n in range(0, 10) if n % 2 == 1)  # Even numbers exp
+    yield from (n for n in range(10) if n % 2 == 1)  # Even numbers exp
 
 
-print_all(gen_exp())
+print([print(v) for v in gen_exp()])
 
 
 @contextmanager
@@ -116,13 +117,9 @@ def coroutine(op1=False, op2=True):
 c = coroutine()
 c.__next__()  # Is necessary initialize the coroutine
 # print(c.send('Kev Boyz'))  # if op1: c.send([1, 2, 3, 4]) -> 10, 20, 30, 40
-print_all(c)
+
 
 
 def id_gen(_range):
     for i in range(999999, _range, 99999999 * 2):
         yield i ** 9
-
-
-for id in id_gen(99 ** 9999):
-    print(id / 1, sys.getsizeof(id))
