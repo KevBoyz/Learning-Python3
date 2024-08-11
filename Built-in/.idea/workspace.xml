@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9d12c3f-d1c3-4165-a668-af0fe35ea1a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Debuging/1Raise&amp;Assertion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debuging/2Logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debuging/Logs.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/Functional Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/annotations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/class_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/closures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/context_gerenciators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/corootines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/externals/functools_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/externals/itertoots_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/externals/operators_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/hofs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/nested_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional Programming/yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/10ClassHerenceMultiple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/11ClassHeranceMultiple2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/12ClassAbstract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/13ClassSuper().py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/14MagicMethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/15Dataclasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/1BasicClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/2Class methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/3Class-Getter&amp;Setters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/4ClassPrivate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/5ClassAssociation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/6ClassAgregation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/7ClassComposition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/8ClassHerence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/9ClassPoliformism.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/_classmethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/_operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/_property.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/abstracts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/descriptors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/dunders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/modeling_iterators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/multile_herance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object Oriented Programing/Again/pizza_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/1Introdution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/2Metacharacters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/3CharacterClasses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/4Flags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/5Search().py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular Expressions/6Sub().py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule/1-ScheduleBasic.pyw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/built in functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sockets/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sockets/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading-module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Click/1-Starting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Click/2-Arguments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/1FeaKeylogger-parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/1FeaKeylogger-parser2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/2SqLite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/assets/data_base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/assets/data_base-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/1hello_world.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/2Hlay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/3GridLayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/4FormLayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/5DialogWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/6MainWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/7Events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/8LoginForm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/1font.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/2feature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/3MainWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/4theme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/5qtquick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gui/PyQt6/live_de_python/window.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/1Pillow -basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/2-OpenCv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/3darknet_webcam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/4justAhegao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/5MotionDetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/darknet/coco.names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/darknet/yolov4-tiny.cfg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/darknet/yolov4-tiny.weights" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_eye.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalface_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalface_alt2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalface_alt_tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_frontalface_default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_fullbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_lefteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_lowerbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_righteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_russian_plate_number.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_smile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/Trained-files/haarcascades/haarcascade_upperbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/assets/ah1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/assets/gabiru.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/assets/person.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image-Handling/assets/walking-pp.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jinja/sample_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Jinja/templates/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/10KvOpencv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/11ImGallery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/1SimpleGUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/2SimpleLayout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/3Calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/4HttpsRequests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/5SystemInteracton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/6LoginScreen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/7ChatApp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/8PlayingMusic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/9CameraApp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/12Ads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/al1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body2.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body3.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body4.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body5.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body6.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body7.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body8.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/body9.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/assets/chat_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kivy/body7.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/1_Organizing Files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/2Manipuling Files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/3Creating Files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/4Compactator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/Test Program 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manipulating Files/Test Program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Moviepy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pynput/Keylogger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pynput/Keylogger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/01/Notebook.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/01/base_pagamentos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/01/base_vendas.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/02- Stat série A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/assets/brasileirao_serie_a.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/hypotesis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/02-Stat_série_A/statistics_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/03- Prev/Previsão Resultado Campeonato Brasileiro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/03- Prev/assets/BRA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/-projects/03- Prev/hack.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/Libro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Libro/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Matplotlib/1MplBasics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Numpy/1Nbasics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Numpy/2ArrayMethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Numpy/3Interpolate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Numpy/4linspace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/1PdBasics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/2DataAnalysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/3PlotingPandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/assets/Gerentes.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/assets/Vendas-Dez.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/assets/Vendas.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/assets/Vendas1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/Pandas/assets/norte_shopping.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/scikit-learn/Linear-regression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/scikit-learn/car.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/scikit-learn/skl-course.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Science/spacy/intro.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/1-First-AutomationForWeb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/2-NestedSearches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/3-Navigation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/4-HtmlAtributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/5-AutoForm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/6-CssSelector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/7-Events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/8-ActionChains.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/9-Waits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/exe03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/exe06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/exe07.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/exe08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Exercices/log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Smart bots/aimbooster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Smart bots/magic-piano-tiles auto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/Tui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/curses/1subwindows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/curses/2pads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/curses/3main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/curses/4user_inputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tui/curses/5test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/Django.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/Nutri-Lab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/autenticacao/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/media/opcao/snkll-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/nutri_lab/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/nutri_lab/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/nutri_lab/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/nutri_lab/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/nutri_lab/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/migrations/0002_dadospaciente.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/migrations/0003_refeicao_opcao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/templates/dados_paciente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/templates/dados_paciente_listar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/templates/paciente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/templates/plano_alimentar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/templates/plano_alimentar_listar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/plataforma/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/base_plataforma.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/cadastro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/emails/cadastro_confirmado.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/css/cadastro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/dados_paciente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/fundo_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/logo_nutri_lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/paciente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/perfil1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/perfil2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/autenticacao/img/plano_alimentar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/plataforma/css/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Django/Nutri-Lab/templates/static/plataforma/css/plano_alimentar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/Flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/sqlite_init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/templates/homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/templates/post_creation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/templates/post_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/1Blog page/templates/user_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/2RestApi/ApiTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/2RestApi/Flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/Flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/db_init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/static/media/gabiru.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/3SwagSite/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/4FtpServer/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/4FtpServer/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/TechWithTim-Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/static/media/gabiru.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/templates/sing_up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web Development/Flask/TechWithTim-Project/website/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/david.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/musica_de_fundo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/video_0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/video_1.mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="1834" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2kW9159jlo1JPOFKiwQ7mzD5vbe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kevin\Documents\GitHub\Learning-Python3\Built-in\Cool Modules" />
+      <recent name="C:\Users\Kevin\Documents\GitHub\Learning-Python3\Built-in\Multiprocessing\asyncrhonous" />
+      <recent name="C:\Users\Kevin\Documents\GitHub\Learning-Python3\Built-in\Multiprocessing\async " />
+      <recent name="C:\Users\Kevin\Documents\GitHub\Learning-Python3\Built-in\Multiprocessing" />
+      <recent name="C:\Users\Kevin\Documents\GitHub\Learning-Python3\Built-in\Iterators &amp; Generators" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d12c3f-d1c3-4165-a668-af0fe35ea1a5" name="Changes" comment="" />
+      <created>1723388247305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723388247305</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
