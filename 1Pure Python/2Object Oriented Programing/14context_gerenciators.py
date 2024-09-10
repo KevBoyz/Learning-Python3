@@ -4,7 +4,6 @@ from time import sleep
 from contextlib import contextmanager
 
 
-
 class Crazy:
     def __init__(self, l):
         self.list = l
@@ -17,10 +16,9 @@ class Crazy:
         list = b_list
 
 
-
-with Crazy([1,2,3]) as alist:
+with Crazy([1, 2, 3]) as alist:
     alist.append(4)
-    
+
 print(list)
 
 
