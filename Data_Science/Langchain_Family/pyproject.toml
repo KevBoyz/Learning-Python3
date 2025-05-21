@@ -21,7 +21,8 @@ dependencies = [
     "bs4 (>=0.0.2,<0.0.3)",
     "firecrawl-py (>=2.5.4,<3.0.0)",
     "langchainhub (>=0.1.21,<0.2.0)",
-    "wikipedia (>=1.4.0,<2.0.0)"
+    "wikipedia (>=1.4.0,<2.0.0)",
+    "assemblyai (>=0.40.2,<0.41.0)"
 ]
 
 

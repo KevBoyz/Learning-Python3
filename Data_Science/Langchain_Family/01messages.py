@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-from langchain_core.messages import SystemMessage, HumanMessage, MessagesPlaceholder
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain.schema.output_parser import StrOutputParser
 
 load_dotenv()

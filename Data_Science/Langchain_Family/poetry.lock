@@ -185,6 +185,27 @@ typing-extensions = {version = ">=4", markers = "python_version < \"3.11\""}
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
+name = "assemblyai"
+version = "0.40.2"
+description = "AssemblyAI Python SDK"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "assemblyai-0.40.2-py3-none-any.whl", hash = "sha256:8e336c0c857a7937311b4a2d1bfb50e259e1d2b225c45e6b115a3b4bc6039f60"},
+    {file = "assemblyai-0.40.2.tar.gz", hash = "sha256:026cb7ba6c7c0987eee57fe67f183f8cd8fec48237539400cbdf91203fe8b5fd"},
+]
+
+[package.dependencies]
+httpx = ">=0.19.0"
+pydantic = ">=1.10.17"
+typing-extensions = ">=3.7"
+websockets = ">=11.0"
+
+[package.extras]
+extras = ["pyaudio (>=0.2.13)"]
+
+[[package]]
 name = "async-timeout"
 version = "4.0.3"
 description = "Timeout context manager for asyncio programs"
@@ -5699,4 +5720,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "a40a675f93ee0736097467125b6698b87e161532709cb948aebd6b106f6159a6"
+content-hash = "d34f5697bae94a70582c843d10a32fd279d69788d82d7ebfe2cc71cc805d9b2b"
