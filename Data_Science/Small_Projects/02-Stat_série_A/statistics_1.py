@@ -23,6 +23,7 @@ def desvio(val, media_):
 def variancia(desvio_):
     return desvio_ ** 2
 
+
 def desvio_padrao(variancia_):
     if 0 > variancia_:
         variancia_ *= -1
@@ -59,8 +60,7 @@ for c in range(0, len(faltas_mandante)):
     corr.append(
         gols_mandante[c] * faltas_mandante[c]
     )
-#print(media(corr))
-
+# print(media(corr))
 
 
 plt.title('Número de gols')
@@ -79,7 +79,8 @@ for k, v in Counter(df['gols_mandante']).items():
     axs[1].bar(k, v, color='blue')
 
 
-
 plt.title('Faltas e Gols do time mandante')
-plt.scatter([x for x in range(len(df['faltas_mandante']))], df['faltas_mandante'], color='red')
-plt.scatter([x for x in range(len(df['faltas_mandante']))], df['gols_mandante'], color='green')
+plt.scatter([x for x in range(len(df['faltas_mandante']))],
+            df['faltas_mandante'], color='red')
+plt.scatter([x for x in range(len(df['faltas_mandante']))],
+            df['gols_mandante'], color='green')
