@@ -22,7 +22,10 @@ dependencies = [
     "firecrawl-py (>=2.5.4,<3.0.0)",
     "langchainhub (>=0.1.21,<0.2.0)",
     "wikipedia (>=1.4.0,<2.0.0)",
-    "assemblyai (>=0.40.2,<0.41.0)"
+    "assemblyai (>=0.40.2,<0.41.0)",
+    "datasets (>=3.6.0,<4.0.0)",
+    "qdrant-client (>=1.14.2,<2.0.0)",
+    "langchain-huggingface (>=0.3.0,<0.4.0)"
 ]
 
 

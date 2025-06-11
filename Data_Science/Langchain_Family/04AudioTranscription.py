@@ -6,7 +6,6 @@ import os
 
 from dotenv import load_dotenv
 load_dotenv()
-
 aai.settings.api_key = os.getenv('ASSEMBLYAI_API_KEY')
 
 config = aai.TranscriptionConfig(
